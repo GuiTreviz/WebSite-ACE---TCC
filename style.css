@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: rgb(14, 14, 39);
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 28px;
+}
+
+.logo {
+    width: 72px;
+    cursor: pointer;
+    
+    transition: .6s;
+}
+
+.logo:hover {
+    width: 80px;
+}
+
+nav ul li {
+   display: inline-block; 
+   margin: 0 26px;
+}
+
+.hero {
+    background-color: rgb(85, 83, 128);
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.primario {
+    margin: 60px 120px;
+    width: 450px;
+    
+}
+
+.ace {
+    font-size: 40px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.ace-slogan {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.secundaria {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parte-owl {
+    margin: 60px 120px;
+    width: 450px;
+}
+
+.titulo-owl {
+    font-size: 40px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.owl-slogan {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.owl {
+    margin-right: 160px;
+}
+
+.MVV {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 60px 120px;
+    width: 450px;
+    padding: 0 45px;
+
+    border: 1px solid rgb(85, 83, 128);
+    border-radius: 12px;
+
+    background-color: rgb(85, 83, 128);
+    text-align:center;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 48px;
+    padding-top: 24px;
+}
+
+.paragraph {
+    font-size: 24px;
+    /*padding-top: 30px; */
+    
+    
+    
+}
+
+footer {
+   height: 12vh;
+
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cp {
+    margin-top: 12px
+}
